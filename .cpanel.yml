@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/h442334/public_html/
+    - /bin/cp -R index.html styles.css app.js content.js internal-pages.js album.js album-ui.js assets "$DEPLOYPATH"
